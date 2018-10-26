@@ -1,0 +1,16 @@
+ul
+	{
+		
+		list-style-type: none;
+		text-align: center;
+		
+	
+}
+		
+li
+	{
+		
+		display: inline;
+		font-family: "Courier New", Sans-serif;
+		font-weight: bold;
+}
