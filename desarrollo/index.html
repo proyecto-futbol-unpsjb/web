@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<h1> Desarrollo </h1>
+
+<p> El desarrollo técnico del proyecto consta de dos aspectos. Uno es orientado a la electrónica y mecánica, que es el diseño y desarrollo de los nuevos dispositivos a agregar al hardware de los robots. El otro aspecto es el diseño e implementación de los sistemas de software que controlarán a los robots, y su aplicación en los mismos y en dispositivos Android.</p>
+
+<p>El desarrollo de hardware que se agregará al Robot Múltiplo N6, consistirá en principio de: una conexión Bluetooth o WiFi y una armadura de plástico, ha desarrollar mediante impresión 3D, con un solenoide que permitirá patear una pelota. Para ello, se reconfigurarán las 14 unidades, y se les hará además las modificaciones necesarias para poder brindarles mayor autonomía de batería.</p>
+
+<p>En la parte de programación, el objetivo es brindar las herramientas necesarias para facilitar la programación concurrente de los dispositivos, y dar a conocer un nuevo paradigma en lo que al diseño del sistema refiere, que es con requerimientos de tiempo real.</p>
+
+<p>Históricamente, los sistemas de tiempo real sólo han sido utilizados en las industrias y en sistemas de misión crítica, pero en la actualidad más y más sistemas de consumo masivo requieren poder satisfacer requerimientos de tiempo real y consecuentemente son introducidos al mercado sin que los usuarios finales conozcan sus verdaderas funcionalidades.</p>
+
+<p>En muchos proyectos que involucran sistemas embebidos, el principal problema es cómo abordar la concurrencia de múltiples tareas (procesos). Este problema se ve agravado cuando las mismas poseen requerimientos de tiempo real. Es decir, las tareas deben generalmente ser ejecutadas periódicamente y en un orden de prioridad y temporal específicos.</p>
+
+<p>Para solventar este problema, se utilizara un Sistema Operativo de Tiempo Real (SOTR), mediante el cual se facilita la implementación de aspectos complejos tales como la ejecución concurrente de múltiples tareas y su comunicación e interacción, mediante mecanismos y políticas de planificación.</p>
+
+<p>En particular, se utilizará FreeRTOS , que es un SOTR de código abierto. Este cuenta, con una amplia disponibilidad de bibliotecas de software para múltiples funcionalidades (comunicación de red, seguridad, almacenamiento, etc.), y es ampliamente utilizado en la industria. Es importante notar que este sistema operativo, al igual que otros en la industria, como mbedOS, es utilizado como base en numerosas plataformas para el desarrollo de sistemas del tipo Internet de las Cosas (IoT, Internet of Things), con lo que se les presenta a los alumnos las herramientas básicas que componen esta clase de dispositivos y sistemas, que con el aumento de la conectividad, serán cada vez más comunes.</p>
+
+<p>Por otro lado, parte de los integrantes de este proyecto, forman parte también del grupo de investigación en Sistemas de Tiempo Real de la Sede Puerto Madryn y docentes de la catedra “Sistemas Embebidos y de Tiempo Real” de la Licenciatura en Informática. Este grupo de investigación cuenta con una amplia experiencia en la temática, habiendo publicado numerosos trabajos científicos (ver CV del coordinador del Proyecto). En particular, utilizan diversos SOTR para probar y evaluar novedosas técnicas de planificación en diversos sistemas embebidos, kits de desarrollo, etc.</p>
+
+<p>El grupo trabaja desde hace años con el SOTR FreeRTOS, al cual le ha realizado y publicado mejoras (ver CV). Además, como experiencia previa y trabajo final de la materia, un alumno de la carrera embebió a FreeRTOS en el robot Múltiplo N6, el cual tenía como objetivo, levantar el plano de la habitación donde estaba.</p>
+
+<p>Adicionalmente, se mostrará distintas tecnologías para el control y seguimiento remoto de los robots, mediante dispositivos tales como celulares y tablets. De esta manera, se presenta el desarrollo de sistemas para la comunicación de datos, diseño de interfaces visuales, programación gráfica, etc., usando entornos y lenguajes de programación para dispositivos de consumo masivo, como son los smartphones.</p>
+
+<p>De esta manera, el proyecto contempla el uso de diferentes tecnologías, que permiten mostrar a los alumnos y a los docentes de manera integrada, múltiples facetas del trabajo que puede realizar el futuro profesional en el área de la computación o informática. A saber: programación de bajo nivel, sistemas embebidos, uso de sistemas operativos especializados, redes y comunicaciones de datos, diseño de interfaces y programación gráfica, programación de dispositivos móviles, etc.</p>
